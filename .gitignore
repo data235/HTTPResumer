@@ -1,0 +1,55 @@
+# Ignore build directories
+build/
+
+# Ignore CMake cache and generated files
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+
+# Ignore compiler-generated files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.pdb
+
+# Ignore configuration and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore user-specific files
+*.user
+*.userprefs
+
+# Ignore VSCode settings (if not needed)
+.vscode/
+
+# Ignore test outputs or build artifacts
+tests/*.o
+tests/*.obj
+tests/*.a
+tests/*.lib
+tests/*.so
+tests/*.dll
+tests/*.dylib
+
+# Ignore generated files (e.g., from `config.h`)
+config.h
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore other IDE-specific files if needed
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Igonre cache
+.cache
+

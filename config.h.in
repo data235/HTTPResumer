@@ -1,0 +1,17 @@
+// config.h
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// Number of progress bar blocks
+constexpr int BAR_WIDTH = @BAR_WIDTH@;
+
+// Progress bar character
+constexpr char32_t BAR_CHAR = U@BAR_CHAR@;
+
+// Progress bar string
+constexpr const char* BAR_STR = "@BAR_STR@"; // U+2588
+
+// Progress bar empty string
+constexpr const char* BAR_EMPTY_STR = "@BAR_EMPTY_STR@"; // U+2591
+
+#endif // CONFIG_H
